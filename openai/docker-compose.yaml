@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  pandora:
+    image: pengzhile/pandora:latest
+    restart: always
+    # env_file:
+    #   - openai.env
+    environment:
+      PANDORA_PROXY: http://127.0.0.1:7890
+      PANDORA_SERVER: 0.0.0.0:8080
+      PANDORA_CLOUD : 1
+    volumes:
+      - pandora_data:/data
+    ports:
+      - "8000:8080"
+
+volumes:
+  pandora_data:

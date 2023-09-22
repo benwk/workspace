@@ -1,7 +1,0 @@
-POST https://auth0.openai.com/oauth/revoke
-content-type: application/json
-
-{
-    "client_id": "pdlLIX2Y72MIl2rhLhTE9VV9bN905kBh",
-    "token": $UNUSED_REFRESH_TOKEN
-}

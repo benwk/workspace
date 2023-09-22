@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  tunnel:
+    image: cloudflare/cloudflared:latest
+    restart: always
+    env_file:
+      - .env
+    command: ["tunnel", "--no-autoupdate", "run", "--token", $TOKEN]
+    network_mode: "host"

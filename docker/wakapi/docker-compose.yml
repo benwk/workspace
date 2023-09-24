@@ -8,4 +8,8 @@ services:
       - .env
     ports:
       - 3000:3000
-    network_mode: "host"
+    volumes:
+      - wakapi-data:/data
+
+volumes:
+  wakapi-data:

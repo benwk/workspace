@@ -17,7 +17,7 @@ WAKAPI_MAIL_SMTP_HOST=your_smtp_host
 WAKAPI_MAIL_SMTP_PORT=465
 WAKAPI_MAIL_SMTP_USER=your_smtp_username
 WAKAPI_MAIL_SMTP_PASS=your_smtp_password
-WAKAPI_MAIL_SMTP_TLS=false
+WAKAPI_MAIL_SMTP_TLS=true
 ```
 
 ## Start PostgreSQL

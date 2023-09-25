@@ -12,6 +12,8 @@ services:
       - postgres:postgres
     volumes:
       - wakapi-data:/data
+    networks:
+      - database
 
 volumes:
   wakapi-data:

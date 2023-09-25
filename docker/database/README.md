@@ -13,11 +13,11 @@ POSTGRES_DB=postgres
 ### Start PostgreSQL
 
 ```shell
-docker compose -p your_project_name -f docker-compose.yml up -d
+docker compose up -d
 ```
 
 ### Shut down PostgreSQL
 
 ```shell
-docker compose -p your_project_name -f docker-compose.yml down
+docker compose down
 ```

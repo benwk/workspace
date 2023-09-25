@@ -4,7 +4,7 @@
 
 ```shell
 WAKAPI_PASSWORD_SALT=your_salt_here
-WAKAPI_DB_HOST=localhost
+WAKAPI_DB_HOST=postgres
 WAKAPI_DB_PORT=5432
 WAKAPI_DB_USER=postgres
 WAKAPI_DB_PASSWORD=postgres

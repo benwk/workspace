@@ -17,6 +17,7 @@ services:
 
 volumes:
   wakapi-data:
+    name: wakapi-data
 
 networks:
   database:

@@ -15,6 +15,7 @@ services:
 
 volumes:
   db_postgres_data:
+    name: db_postgres_data
 
 networks:
   database:

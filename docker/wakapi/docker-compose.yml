@@ -8,8 +8,6 @@ services:
       - .env
     ports:
       - 3000:3000
-    links:
-      - postgres:postgres
     volumes:
       - wakapi-data:/data
     networks:
